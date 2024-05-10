@@ -1,0 +1,52 @@
+/* Set font families */
+body {
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    padding-left: 20px;
+    background: linear-gradient(150deg, #e6d3f9 0%, #e6d3f9 50%, #cea0f1 50%, #cea0f1 100%);
+}
+ /* Style for a full display */  
+.display {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(150deg, #e6d3f9 0%, #e6d3f9 50%, #e6d3f9 50%, #e6d3f9 100%);
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Style for SCP heading */
+.display h1{
+    color:rgb(255, 0, 0);
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 48px;    
+}
+/* Style for main heading */
+.heading{ 
+    text-align: center;
+    background-color: #ff69b4; ;
+    font-size: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Style for buttons */
+.display button{
+    display: inline-flex;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: #ff6347;
+  border: 2px ; 
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+}
+/* Style for secondary headings */
+.display h2{
+    text-align: center;
+    color: black;   
+}
+
